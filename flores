@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+        <title>Sunflower Bouquet for Fer</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+                margin: 0;
+            }
+
+             .bouquet {
+                font-size: 2em;
+                text-align: center;
+                line-height: 0;
+             }
+
+             .heart {
+                color: red;
+                animation: pulse 2s infinite;
+             }
+
+             .shine{
+                color: yellow;
+                animation: shine 2s infinite alternate;
+             }
+
+             @keyframes pulse {
+                0% {transform: scale(1);}
+                50% {transform: scale(1.2);}
+                100% {transform: scale (1);}                
+             }
+
+             @keyframes shine {
+                0% {text-shadow: 0 0 10px yellow;}
+                100% {text-shadow: 0 0 20px yellow, 0 0 30px yellow;}
+             }
+        </style>
+    </head>
+    <body>
+
+        <div class="bouquet">
+            
+            <div>💛🌻💛</div>
+            <div>💛🌻🌻💛</div>
+            <div> 💛🌻💛</div>
+            <div>  💛🌻💛</div>
+            <div>   💚 </div>
+            <div>   💚</div>
+            <div>   💚</div>
+          </div>
+          <hl class="shine">💘✨te amo mucho mi amada fer eres lo mejor que me ah pasado att tu flaco✨💘</hl>
+   
+        </body>
+</html>
